@@ -22,7 +22,7 @@ public class PdfGeneratorService {
         Document document = new Document(pdfDoc);
 
         // Adicionar conteudo ao documento
-        document.add(new Paragraph("Olá, este é um exemplo de PDF gerado com iText.")
+        document.add(new Paragraph("Olá, este é um exemplo de PDF gerado com iText...")
                 .setFontColor(ColorConstants.BLACK));
 
         // Fechar o documento
